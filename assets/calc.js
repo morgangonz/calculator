@@ -8,39 +8,84 @@ $("#one").click(function(){
 	});
 
 $("#two").click(function(){
-	$("#screen").append(2)
+	if ($("#mathSigns").text().length==0){
+		console.log("it's empty")
+		$("#screen").append(2)
+	} else {
+		$("#screen2").append(2)
+	}	
 });
 
 $("#three").click(function(){
-	$("#screen").append(3)
+	if ($("#mathSigns").text().length==0){
+		console.log("it's empty")
+		$("#screen").append(3)
+	} else {
+		$("#screen2").append(3)
+	}	
 });
 
 $("#four").click(function(){
-	$("#screen").append(4)
+	if ($("#mathSigns").text().length==0){
+		console.log("it's empty")
+		$("#screen").append(4)
+	} else {
+		$("#screen2").append(4)
+	}	
 });
 
 $("#five").click(function(){
-	$("#screen").append(5)
+	if ($("#mathSigns").text().length==0){
+		console.log("it's empty")
+		$("#screen").append(5)
+	} else {
+		$("#screen2").append(5)
+	}	
 });
 
 $("#six").click(function(){
-	$("#screen").append(6)
+	if ($("#mathSigns").text().length==0){
+		console.log("it's empty")
+		$("#screen").append(6)
+	} else {
+		$("#screen2").append(6)
+	}	
 });
 
 $("#seven").click(function(){
-	$("#screen").append(7)
+	if ($("#mathSigns").text().length==0){
+		console.log("it's empty")
+		$("#screen").append(7)
+	} else {
+		$("#screen2").append(7)
+	}	
 });
 
 $("#eight").click(function(){
-	$("#screen").append(8)
+	if ($("#mathSigns").text().length==0){
+		console.log("it's empty")
+		$("#screen").append(8)
+	} else {
+		$("#screen2").append(8)
+	}	
 });
 
 $("#nine").click(function(){
-	$("#screen").append(9)
+	if ($("#mathSigns").text().length==0){
+		console.log("it's empty")
+		$("#screen").append(9)
+	} else {
+		$("#screen2").append(9)
+	}	
 });
 
 $("#zero").click(function(){
-	$("#screen").append(0)
+	if ($("#mathSigns").text().length==0){
+		console.log("it's empty")
+		$("#screen").append(0)
+	} else {
+		$("#screen2").append(0)
+	}	
 });
 ///end of numbers (misc top buttoms)
 
